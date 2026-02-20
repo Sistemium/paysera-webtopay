@@ -1,6 +1,6 @@
 {
   "name": "paysera-webtopay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript SDK for Paysera WebToPay checkout integration. A TypeScript port of the official PHP library paysera/lib-webtopay.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

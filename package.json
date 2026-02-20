@@ -34,16 +34,16 @@
     "baltic",
     "typescript"
   ],
-  "author": "Sasha",
+  "author": "Sistemium",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sasha/paysera-webtopay.git"
+    "url": "git+https://github.com/Sistemium/paysera-webtopay.git"
   },
   "bugs": {
-    "url": "https://github.com/sasha/paysera-webtopay/issues"
+    "url": "https://github.com/Sistemium/paysera-webtopay/issues"
   },
-  "homepage": "https://github.com/sasha/paysera-webtopay#readme",
+  "homepage": "https://github.com/Sistemium/paysera-webtopay#readme",
   "dependencies": {
     "fast-xml-parser": "^4.5.0"
   },

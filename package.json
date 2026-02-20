@@ -1,0 +1,55 @@
+{
+  "name": "paysera-webtopay",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for Paysera WebToPay checkout integration. A TypeScript port of the official PHP library paysera/lib-webtopay.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "paysera",
+    "webtopay",
+    "payment",
+    "checkout",
+    "gateway",
+    "lithuania",
+    "baltic",
+    "typescript"
+  ],
+  "author": "Sasha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha/paysera-webtopay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sasha/paysera-webtopay/issues"
+  },
+  "homepage": "https://github.com/sasha/paysera-webtopay#readme",
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
